@@ -25,6 +25,7 @@ public class MerkelTreeRoot {
         return hex;
     }
 
+
     public static byte[] unHexString(String calulatedHash) {
         int len = calulatedHash.length();
         byte[] data = new byte[len / 2];
